@@ -1,502 +1,474 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>git</title>
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="topbar">
-        <button class="menu-toggle" type="button">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <a class="brand" href="#">OH MY CREAM !</a>
 
-        <form class="search" role="search">
-          <span class="search-icon"></span>
-          <label class="sr-only">Search</label>
-          <input
-            id="site-search"
-            type="search"
-            placeholder="I'M LOOKING FOR A BRAND, A PRODUCT."
-          />
-        </form>
-        <a class="mobile-ai-pill" href="#">
-          <span>✧</span>
-          Your 24/7 Beauty AI
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>git</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <button class="menu-toggle" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="brand" href="#">OH MY CREAM !</a>
+
+      <form class="search" role="search">
+        <span class="search-icon"></span>
+        <label class="sr-only">Search</label>
+        <input id="site-search" type="search" placeholder="I'M LOOKING FOR A BRAND, A PRODUCT." />
+      </form>
+      <a class="mobile-ai-pill" href="#">
+        <span>✧</span>
+        Your 24/7 Beauty AI
+      </a>
+
+    </div>
+
+    <nav class="main-nav">
+      <div class="mobile-menu-head">
+        <button class="mobile-menu-close" type="button"></button>
+        <span>OH MY CREAM !</span>
+        <div>
+          <button class="icon-button account-trigger">
+            <i class="bx bx-user"></i>
+          </button>
+          <button class="icon-button"><i class="bx bx-shopping-bag"></i></button>
+        </div>
       </div>
+      <ul id="nav-list">
+        <li><a class="active" href="#">Pop-Up</a></li>
+        <li><a href="#">Westman Atelier</a></li>
+        <li class="nav-mega">
+          <a href="#">New In</a>
+          <div class="newin-menu">
+            <div class="newin-links">
+              <div>
+                <h3>Our New Brands</h3>
+                <a href="#">Westman Atelier</a>
+                <a href="#">Davines</a>
+                <a href="#">Victoria Beckham Beauty</a>
+                <a href="#">K18</a>
+                <a href="#">Cénée</a>
+                <a href="#">Goop Beauty</a>
+                <a href="#">Mimétique</a>
+                <a href="#">Cair</a>
+                <a href="#">Birkenstock</a>
+              </div>
+              <div>
+                <h3>By Category</h3>
+                <a href="#">Skincare</a>
+                <a href="#">Makeup</a>
+                <a href="#">Hair</a>
+                <a href="#">Body</a>
+                <a href="#">Food Supplements</a>
+                <a href="#">Beauty Tools</a>
+              </div>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/new in/Home_-_TF_Satin_Kajal_Liner_Jeans_-_VBB_600x.webp"
+                alt="Victoria Beckham Beauty Satin Kajal" />
+              <p>Victoria Beckham Beauty’s bestseller, now in blue</p>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/new in/202608_Bisou_Jelly_confiture_de_figue_TF_violette_fr_home_600x.webp"
+                alt="Violette FR Fig Jam" />
+              <p>Fig Jam: The Red of Everyday Life</p>
+            </div>
+          </div>
+        </li>
+        <li class="nav-mega">
+          <a href="#">Brands</a>
+          <div class="newin-menu brands-menu">
+            <div class="newin-links">
+              <div>
+                <h3>See Our A - Z Brands</h3>
+                <h3>Our New Brands</h3>
+                <a href="#">Westman Atelier</a>
+                <a href="#">Mimétique</a>
+                <a href="#">Davines</a>
+                <a href="#">The Smilist</a>
+                <a href="#">Birkenstock</a>
+                <a href="#">Cair</a>
+                <a href="#">Cénée</a>
+                <a href="#">K18</a>
+              </div>
+              <div>
+                <h3>Our Cult Brands</h3>
+                <a href="#">Oh My Cream Skincare</a>
+                <a href="#">Victoria Beckham Beauty</a>
+                <a href="#">Violette_FR</a>
+                <a href="#">Augustinus Bader</a>
+                <a href="#">Tata Harper</a>
+                <a href="#">Ilia</a>
+                <a href="#">Susanne Kaufmann</a>
+                <a href="#">Dermalogica</a>
+                <a href="#">Combeau</a>
+                <a href="#">Atelier Nubio</a>
+              </div>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/brands/2025_04_OMCS_REPACK_8_RoutineNettoyage_Home_1_600x.webp"
+                alt="Oh My Cream Skincare essentials" />
+              <p>Oh My Cream Skincare essentials</p>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/brands/2026_05_Westman_Atelier_-3Home_600x.webp" alt="Westman Atelier makeup" />
+              <p>New! Westman Atelier</p>
+            </div>
+          </div>
+        </li>
+        <li class="nav-mega">
+          <a href="#">Skincare</a>
+          <div class="newin-menu skincare-menu">
+            <div class="newin-links skincare-links">
+              <div>
+                <h3>Categories</h3>
+                <a href="#">Cleansers</a>
+                <a href="#">Cleaners</a>
+                <a href="#">Lotions</a>
+                <a href="#">Serums</a>
+                <a href="#">Skin Care Oils</a>
+                <a href="#">Creams</a>
+                <a href="#">Exfoliants & Scrubs</a>
+                <a href="#">Masks</a>
+                <a href="#">Targeted Care</a>
+                <a href="#">Eye & Lip Contour</a>
+              </div>
+              <div>
+                <h3 aria-hidden="true">&nbsp;</h3>
+                <a href="#">Lip Balm</a>
+                <a href="#">Food Supplements</a>
+                <a href="#">Beauty Tools</a>
+                <a href="#">Suncare & Self-tanning</a>
+                <a href="#">Kits & Box Sets</a>
+                <a href="#">Travel sizes</a>
+                <a href="#">Gift cards</a>
+              </div>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/skincare/Innisfree_Ceramide_Mist_Home_600x.jpg" alt="Innisfree moisturizing routine" />
+              <p>Innisfree’s "Glass Skin" Moisturizing Routine</p>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/skincare/2025_06_OMC_MIMETIQUE_0_Home_1_600x.webp" alt="Mimétique skincare products" />
+              <p>Mimétique: Bioactive Skincare Products That Mimic the Skin</p>
+            </div>
+          </div>
+        </li>
+        <li class="nav-mega">
+          <a href="#">Makeup</a>
+          <div class="newin-menu makeup-menu">
+            <div class="makeup-links">
+              <div>
+                <h3>Complexion</h3>
+                <a href="#">Foundation</a>
+                <a href="#">Correctors</a>
+                <a href="#">Tinted Creams</a>
+                <a href="#">Foundation</a>
+                <a href="#">Finishing Powders</a>
+                <a href="#">Blushes</a>
+                <a href="#">Illuminators</a>
+                <a href="#">Sunbathing</a>
+              </div>
+              <div>
+                <h3>Eyes</h3>
+                <a href="#">Anti-Dark Circle</a>
+                <a href="#">Eyeshadow</a>
+                <a href="#">Pencils & Eyeliners</a>
+                <a href="#">Mascaras</a>
+                <a href="#">Eyebrows</a>
+                <h3>Pallets & Boxes</h3>
+              </div>
+              <div>
+                <h3>Lips</h3>
+                <a href="#">Balms & Care</a>
+                <a href="#">Lip Pencils</a>
+                <a href="#">Lipsticks</a>
+                <a href="#">Gloss</a>
+                <h3>Accessories</h3>
+              </div>
+              <div>
+                <h3>Nails</h3>
+                <a href="#">Nail Care</a>
+                <a href="#">Bases & Top Coats</a>
+                <a href="#">Varnish</a>
+                <a href="#">Solvents</a>
+              </div>
+            </div>
+            <div class="newin-feature makeup-feature">
+              <img src="asset/makeup/OMCS_Mascara_HOME_600x.webp" />
+              <p>Finally, a mascara you’ll never want to be without...</p>
+            </div>
+          </div>
+        </li>
+        <li class="nav-mega">
+          <a href="#">Hair</a>
+          <div class="newin-menu hair-menu">
+            <div class="newin-links skincare-links">
+              <div>
+                <h3>Categories</h3>
+                <a href="#">Shampoos</a>
+                <a href="#">Conditioner</a>
+                <a href="#">Masks</a>
+                <a href="#">No-rinse care</a>
+                <a href="#">Oils</a>
+                <a href="#">Styling Products</a>
+                <a href="#">Dry shampoos</a>
+                <a href="#">Brushes</a>
+              </div>
+              <div>
+                <h3 aria-hidden="true">&nbsp;</h3>
+                <a href="#">Kits & Boxes</a>
+                <a href="#">Travel sizes</a>
+                <a href="#">Food Supplements</a>
+                <a href="#">Beauty Tools</a>
+              </div>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/hair/2026_06_OMC_DAVINES_0_Home_600x.webp" />
+              <p>Davines, the cult professional hair care brand</p>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/hair/2024_03_OMC_COMBO_cheveux_0_Home_f299cc76-143d-4fd5-88c4-999a72f975e3_600x.webp" />
+              <p>The supplement that transforms your hair</p>
+            </div>
+          </div>
+        </li>
+        <li class="nav-mega">
+          <a href="#">Body</a>
+          <div class="newin-menu body-menu">
+            <div class="newin-links skincare-links">
+              <div>
+                <h3>Categories</h3>
+                <a href="#">Bath & Shower</a>
+                <a href="#">Moisturizing Care</a>
+                <a href="#">Oils</a>
+                <a href="#">Exfoliants & Scrubs</a>
+                <a href="#">Targeted Care</a>
+                <a href="#">Hands & Feet</a>
+                <a href="#">Deodorants & Hygiene</a>
+                <a href="#">Suncare & Self-tanning</a>
+                <a href="#">Kits & Boxes</a>
+                <a href="#">Travel sizes</a>
+              </div>
+              <div>
+                <h3 aria-hidden="true">&nbsp;</h3>
+                <a href="#">Food Supplements</a>
+                <a href="#">Beauty Tools</a>
+                <a href="#">Gift cards</a>
+              </div>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/body/Talm_x_LBB_brosse_corps_-_home_600x.webp" />
+              <p>Talm x La Bonne Brosse: new detox Body Brush</p>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/body/Dropdown_Corps_Selection_Ventre_Plat_600x.jpg" />
+              <p>Get a Flat Stomach From, 20 Days</p>
+            </div>
+          </div>
+        </li>
+        <li class="nav-mega">
+          <a href="#">Perfume</a>
+          <div class="newin-menu perfume-menu">
+            <div class="newin-links perfume-links">
+              <div>
+                <h3>Olfactory Family</h3>
+                <a href="#">Floral</a>
+                <a href="#">Woody</a>
+                <a href="#">Oriental</a>
+                <a href="#">Musky</a>
+                <a href="#">Aromatic</a>
+                <a href="#">Fruity</a>
+                <a href="#">Sweet</a>
+                <a href="#">Green</a>
+                <a href="#">Lemony, Hesperides</a>
+              </div>
+              <div>
+                <h3>Brand</h3>
+                <a href="#">Fascent</a>
+                <a href="#">Racyne</a>
+                <a href="#">Versatile Paris</a>
+                <a href="#">L:a Bruket</a>
+                <a href="#">Childhood Paris</a>
+              </div>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/perfume/Lancement_Parfums_-_Home_9d91948a-a765-45cb-b7a0-339d39fc6a17_600x.webp" />
+              <p>Find your fragrance in 3 questions!</p>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/perfume/2024_07_OMC_FASCENT_0_Home_f900663d-5319-4386-ad5c-80ffb5ee976f_600x.webp" />
+              <p>Happy, colorful Fascent fragrances</p>
+            </div>
+          </div>
+        </li>
+        <li class="nav-mega">
+          <a href="#">Wellness</a>
+          <div class="newin-menu wellness-menu">
+            <div class="newin-links wellness-links">
+              <div>
+                <h3>Food Supplements</h3>
+                <a href="#">Skin</a>
+                <a href="#">Hair</a>
+                <a href="#">Women's Wellness</a>
+                <a href="#">Digestion</a>
+                <a href="#">Silhouette</a>
+                <a href="#">Body</a>
+                <a href="#">Energy</a>
+                <a href="#">Stress</a>
+                <a href="#">Immunity</a>
+              </div>
+              <div>
+                <h3>Beauty Tools</h3>
+                <a href="#">Massage tools</a>
+                <a href="#">High-Tech</a>
+                <a href="#">Sponges & Wipes</a>
+                <a href="#">Lifestyle accessories</a>
+                <h3>Privacy</h3>
+                <h3>Lifestyle</h3>
+              </div>
+            </div>
+            <div class="newin-feature">
+              <img src="asset/wellness/Home_Collagene_Combeau_89d99f6c-facc-4580-8491-fc73f35bccb3_600x.webp" />
+              <p>The best collagen on the market</p>
+            </div>
+            <div class="newin-feature">
+              <img
+                src="asset/wellness/Dropdown_Corps_Selection_Ventre_Plat_af222986-35d9-42f7-bc4c-a66ace8acde1_600x.jpg" />
+              <p>Get a Flat Stomach From, 20 Days</p>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">K-Beauty</a></li>
+        <li class="mobile-only"><a href="#">Best-Sellers</a></li>
+        <li><a href="#">Sale</a></li>
+        <li><a class="journal" href="#">Journal</a></li>
+      </ul>
+      <div class="mobile-menu-extra">
+        <a class="book" href="#"><span></span>Book a Treatment</a>
+        <a class="gift" href="#"><span></span>Offer a Treatment</a>
+        <a class="store" href="#"><span></span>Stores</a>
+      </div>
+      <div class="mobile-menu-account">
+        <a class="wishlist" href="#"><span></span>Wishlist</a>
+        <a class="account" href="#"><span></span>My Account</a>
+        <a class="locale" href="#"><span>🇪🇺</span>En (€) - Change</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero-slider">
+      <button class="slider-arrow prev" type="button"></button>
+      <div class="slides"></div>
+      <button class="slider-arrow next" type="button"></button>
+    </section>
 
-      <nav class="main-nav">
-        <div class="mobile-menu-head">
-          <button class="mobile-menu-close" type="button"></button>
-          <span>OH MY CREAM !</span>
-          <div>
-            <button class="icon-button account-trigger">
-              <i class="bx bx-user"></i>
-            </button>
-            <button class="icon-button"><i class="bx bx-shopping-bag"></i></button>
-          </div>
+    <section class="editorial-grid">
+      <article class="editorial-card">
+        <div class="editorial-image">
+          <img src="asset/section2/2025_06_OMC_MIMETIQUE_1_Post_700x.webp" alt="Mimétique skincare products" />
+          <h2>Mimetique</h2>
         </div>
-        <ul id="nav-list">
-          <li><a class="active" href="#">Pop-Up</a></li>
-          <li><a href="#">Westman Atelier</a></li>
-          <li class="nav-mega">
-            <a href="#">New In</a>
-            <div class="newin-menu">
-              <div class="newin-links">
-                <div>
-                  <h3>Our New Brands</h3>
-                  <a href="#">Westman Atelier</a>
-                  <a href="#">Davines</a>
-                  <a href="#">Victoria Beckham Beauty</a>
-                  <a href="#">K18</a>
-                  <a href="#">Cénée</a>
-                  <a href="#">Goop Beauty</a>
-                  <a href="#">Mimétique</a>
-                  <a href="#">Cair</a>
-                  <a href="#">Birkenstock</a>
-                </div>
-                <div>
-                  <h3>By Category</h3>
-                  <a href="#">Skincare</a>
-                  <a href="#">Makeup</a>
-                  <a href="#">Hair</a>
-                  <a href="#">Body</a>
-                  <a href="#">Food Supplements</a>
-                  <a href="#">Beauty Tools</a>
-                </div>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/new in/Home_-_TF_Satin_Kajal_Liner_Jeans_-_VBB_600x.webp"
-                  alt="Victoria Beckham Beauty Satin Kajal"
-                />
-                <p>Victoria Beckham Beauty’s bestseller, now in blue</p>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/new in/202608_Bisou_Jelly_confiture_de_figue_TF_violette_fr_home_600x.webp"
-                  alt="Violette FR Fig Jam"
-                />
-                <p>Fig Jam: The Red of Everyday Life</p>
-              </div>
-            </div>
-          </li>
-          <li class="nav-mega">
-            <a href="#">Brands</a>
-            <div class="newin-menu brands-menu">
-              <div class="newin-links">
-                <div>
-                  <h3>See Our A - Z Brands</h3>
-                  <h3>Our New Brands</h3>
-                  <a href="#">Westman Atelier</a>
-                  <a href="#">Mimétique</a>
-                  <a href="#">Davines</a>
-                  <a href="#">The Smilist</a>
-                  <a href="#">Birkenstock</a>
-                  <a href="#">Cair</a>
-                  <a href="#">Cénée</a>
-                  <a href="#">K18</a>
-                </div>
-                <div>
-                  <h3>Our Cult Brands</h3>
-                  <a href="#">Oh My Cream Skincare</a>
-                  <a href="#">Victoria Beckham Beauty</a>
-                  <a href="#">Violette_FR</a>
-                  <a href="#">Augustinus Bader</a>
-                  <a href="#">Tata Harper</a>
-                  <a href="#">Ilia</a>
-                  <a href="#">Susanne Kaufmann</a>
-                  <a href="#">Dermalogica</a>
-                  <a href="#">Combeau</a>
-                  <a href="#">Atelier Nubio</a>
-                </div>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/brands/2025_04_OMCS_REPACK_8_RoutineNettoyage_Home_1_600x.webp"
-                  alt="Oh My Cream Skincare essentials"
-                />
-                <p>Oh My Cream Skincare essentials</p>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/brands/2026_05_Westman_Atelier_-3Home_600x.webp"
-                  alt="Westman Atelier makeup"
-                />
-                <p>New! Westman Atelier</p>
-              </div>
-            </div>
-          </li>
-          <li class="nav-mega">
-            <a href="#">Skincare</a>
-            <div class="newin-menu skincare-menu">
-              <div class="newin-links skincare-links">
-                <div>
-                  <h3>Categories</h3>
-                  <a href="#">Cleansers</a>
-                  <a href="#">Cleaners</a>
-                  <a href="#">Lotions</a>
-                  <a href="#">Serums</a>
-                  <a href="#">Skin Care Oils</a>
-                  <a href="#">Creams</a>
-                  <a href="#">Exfoliants & Scrubs</a>
-                  <a href="#">Masks</a>
-                  <a href="#">Targeted Care</a>
-                  <a href="#">Eye & Lip Contour</a>
-                </div>
-                <div>
-                  <h3 aria-hidden="true">&nbsp;</h3>
-                  <a href="#">Lip Balm</a>
-                  <a href="#">Food Supplements</a>
-                  <a href="#">Beauty Tools</a>
-                  <a href="#">Suncare & Self-tanning</a>
-                  <a href="#">Kits & Box Sets</a>
-                  <a href="#">Travel sizes</a>
-                  <a href="#">Gift cards</a>
-                </div>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/skincare/Innisfree_Ceramide_Mist_Home_600x.jpg"
-                  alt="Innisfree moisturizing routine"
-                />
-                <p>Innisfree’s "Glass Skin" Moisturizing Routine</p>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/skincare/2025_06_OMC_MIMETIQUE_0_Home_1_600x.webp"
-                  alt="Mimétique skincare products"
-                />
-                <p>Mimétique: Bioactive Skincare Products That Mimic the Skin</p>
-              </div>
-            </div>
-          </li>
-          <li class="nav-mega">
-            <a href="#">Makeup</a>
-            <div class="newin-menu makeup-menu">
-              <div class="makeup-links">
-                <div>
-                  <h3>Complexion</h3>
-                  <a href="#">Foundation</a>
-                  <a href="#">Correctors</a>
-                  <a href="#">Tinted Creams</a>
-                  <a href="#">Foundation</a>
-                  <a href="#">Finishing Powders</a>
-                  <a href="#">Blushes</a>
-                  <a href="#">Illuminators</a>
-                  <a href="#">Sunbathing</a>
-                </div>
-                <div>
-                  <h3>Eyes</h3>
-                  <a href="#">Anti-Dark Circle</a>
-                  <a href="#">Eyeshadow</a>
-                  <a href="#">Pencils & Eyeliners</a>
-                  <a href="#">Mascaras</a>
-                  <a href="#">Eyebrows</a>
-                  <h3>Pallets & Boxes</h3>
-                </div>
-                <div>
-                  <h3>Lips</h3>
-                  <a href="#">Balms & Care</a>
-                  <a href="#">Lip Pencils</a>
-                  <a href="#">Lipsticks</a>
-                  <a href="#">Gloss</a>
-                  <h3>Accessories</h3>
-                </div>
-                <div>
-                  <h3>Nails</h3>
-                  <a href="#">Nail Care</a>
-                  <a href="#">Bases & Top Coats</a>
-                  <a href="#">Varnish</a>
-                  <a href="#">Solvents</a>
-                </div>
-              </div>
-              <div class="newin-feature makeup-feature">
-                <img src="asset/makeup/OMCS_Mascara_HOME_600x.webp"/>
-                <p>Finally, a mascara you’ll never want to be without...</p>
-              </div>
-            </div>
-          </li>
-          <li class="nav-mega">
-            <a href="#">Hair</a>
-            <div class="newin-menu hair-menu">
-              <div class="newin-links skincare-links">
-                <div>
-                  <h3>Categories</h3>
-                  <a href="#">Shampoos</a>
-                  <a href="#">Conditioner</a>
-                  <a href="#">Masks</a>
-                  <a href="#">No-rinse care</a>
-                  <a href="#">Oils</a>
-                  <a href="#">Styling Products</a>
-                  <a href="#">Dry shampoos</a>
-                  <a href="#">Brushes</a>
-                </div>
-                <div>
-                  <h3 aria-hidden="true">&nbsp;</h3>
-                  <a href="#">Kits & Boxes</a>
-                  <a href="#">Travel sizes</a>
-                  <a href="#">Food Supplements</a>
-                  <a href="#">Beauty Tools</a>
-                </div>
-              </div>
-              <div class="newin-feature">
-                <img src="asset/hair/2026_06_OMC_DAVINES_0_Home_600x.webp" />
-                <p>Davines, the cult professional hair care brand</p>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/hair/2024_03_OMC_COMBO_cheveux_0_Home_f299cc76-143d-4fd5-88c4-999a72f975e3_600x.webp" />
-                <p>The supplement that transforms your hair</p>
-              </div>
-            </div>
-          </li>
-          <li class="nav-mega">
-            <a href="#">Body</a>
-            <div class="newin-menu body-menu">
-              <div class="newin-links skincare-links">
-                <div>
-                  <h3>Categories</h3>
-                  <a href="#">Bath & Shower</a>
-                  <a href="#">Moisturizing Care</a>
-                  <a href="#">Oils</a>
-                  <a href="#">Exfoliants & Scrubs</a>
-                  <a href="#">Targeted Care</a>
-                  <a href="#">Hands & Feet</a>
-                  <a href="#">Deodorants & Hygiene</a>
-                  <a href="#">Suncare & Self-tanning</a>
-                  <a href="#">Kits & Boxes</a>
-                  <a href="#">Travel sizes</a>
-                </div>
-                <div>
-                  <h3 aria-hidden="true">&nbsp;</h3>
-                  <a href="#">Food Supplements</a>
-                  <a href="#">Beauty Tools</a>
-                  <a href="#">Gift cards</a>
-                </div>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/body/Talm_x_LBB_brosse_corps_-_home_600x.webp"/>
-                <p>Talm x La Bonne Brosse: new detox Body Brush</p>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/body/Dropdown_Corps_Selection_Ventre_Plat_600x.jpg"/>
-                <p>Get a Flat Stomach From, 20 Days</p>
-              </div>
-            </div>
-          </li>
-          <li class="nav-mega">
-            <a href="#">Perfume</a>
-            <div class="newin-menu perfume-menu">
-              <div class="newin-links perfume-links">
-                <div>
-                  <h3>Olfactory Family</h3>
-                  <a href="#">Floral</a>
-                  <a href="#">Woody</a>
-                  <a href="#">Oriental</a>
-                  <a href="#">Musky</a>
-                  <a href="#">Aromatic</a>
-                  <a href="#">Fruity</a>
-                  <a href="#">Sweet</a>
-                  <a href="#">Green</a>
-                  <a href="#">Lemony, Hesperides</a>
-                </div>
-                <div>
-                  <h3>Brand</h3>
-                  <a href="#">Fascent</a>
-                  <a href="#">Racyne</a>
-                  <a href="#">Versatile Paris</a>
-                  <a href="#">L:a Bruket</a>
-                  <a href="#">Childhood Paris</a>
-                </div>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/perfume/Lancement_Parfums_-_Home_9d91948a-a765-45cb-b7a0-339d39fc6a17_600x.webp"/>
-                <p>Find your fragrance in 3 questions!</p>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/perfume/2024_07_OMC_FASCENT_0_Home_f900663d-5319-4386-ad5c-80ffb5ee976f_600x.webp"/>
-                <p>Happy, colorful Fascent fragrances</p>
-              </div>
-            </div>
-          </li>
-          <li class="nav-mega">
-            <a href="#">Wellness</a>
-            <div class="newin-menu wellness-menu">
-              <div class="newin-links wellness-links">
-                <div>
-                  <h3>Food Supplements</h3>
-                  <a href="#">Skin</a>
-                  <a href="#">Hair</a>
-                  <a href="#">Women's Wellness</a>
-                  <a href="#">Digestion</a>
-                  <a href="#">Silhouette</a>
-                  <a href="#">Body</a>
-                  <a href="#">Energy</a>
-                  <a href="#">Stress</a>
-                  <a href="#">Immunity</a>
-                </div>
-                <div>
-                  <h3>Beauty Tools</h3>
-                  <a href="#">Massage tools</a>
-                  <a href="#">High-Tech</a>
-                  <a href="#">Sponges & Wipes</a>
-                  <a href="#">Lifestyle accessories</a>
-                  <h3>Privacy</h3>
-                  <h3>Lifestyle</h3>
-                </div>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/wellness/Home_Collagene_Combeau_89d99f6c-facc-4580-8491-fc73f35bccb3_600x.webp"/>
-                <p>The best collagen on the market</p>
-              </div>
-              <div class="newin-feature">
-                <img
-                  src="asset/wellness/Dropdown_Corps_Selection_Ventre_Plat_af222986-35d9-42f7-bc4c-a66ace8acde1_600x.jpg"/>
-                <p>Get a Flat Stomach From, 20 Days</p>
-              </div>
-            </div>
-          </li>
-          <li><a href="#">K-Beauty</a></li>
-          <li class="mobile-only"><a href="#">Best-Sellers</a></li>
-          <li><a href="#">Sale</a></li>
-          <li><a class="journal" href="#">Journal</a></li>
-        </ul>
-        <div class="mobile-menu-extra">
-          <a class="book" href="#"><span></span>Book a Treatment</a>
-          <a class="gift" href="#"><span></span>Offer a Treatment</a>
-          <a class="store" href="#"><span></span>Stores</a>
+        <p>Biomimetic active ingredients that ‘hack’ the skin’s code</p>
+      </article>
+      <article class="editorial-card">
+        <div class="editorial-image">
+          <img src="asset/section2/Mood_On_veut_un_ventre_plat_de_Naiade_1_1_700x.webp"
+            alt="Naiade flat stomach ampoules" />
+          <h2>Naïade's Flat Stomach</h2>
         </div>
-        <div class="mobile-menu-account">
-          <a class="wishlist" href="#"><span></span>Wishlist</a>
-          <a class="account" href="#"><span></span>My Account</a>
-          <a class="locale" href="#"><span>🇪🇺</span>En (€) - Change</a>
+        <p>Get a Flat Stomach From, 20 Days</p>
+      </article>
+      <article class="editorial-card">
+        <div class="editorial-image">
+          <img src="asset/section2/2025_12_OMC_BeautyTech_Post_700x.webp" alt="Nooance LED mask" />
+          <h2>Elite X600</h2>
         </div>
-      </nav>
-    </header>
-     <main>
-      <section class="hero-slider" >
-        <button class="slider-arrow prev" type="button" ></button>
-        <div class="slides" ></div>
-        <button class="slider-arrow next" type="button" ></button>
-      </section>
-
-      <section class="editorial-grid" >
-        <article class="editorial-card">
-          <div class="editorial-image">
-            <img
-              src="asset/section2/2025_06_OMC_MIMETIQUE_1_Post_700x.webp"
-              alt="Mimétique skincare products"
-            />
-            <h2>Mimetique</h2>
-          </div>
-          <p>Biomimetic active ingredients that ‘hack’ the skin’s code</p>
-        </article>
-        <article class="editorial-card">
-          <div class="editorial-image">
-            <img
-              src="asset/section2/Mood_On_veut_un_ventre_plat_de_Naiade_1_1_700x.webp"
-              alt="Naiade flat stomach ampoules"
-            />
-            <h2>Naïade's Flat Stomach</h2>
-          </div>
-          <p>Get a Flat Stomach From, 20 Days</p>
-        </article>
-        <article class="editorial-card">
-          <div class="editorial-image">
-            <img
-              src="asset/section2/2025_12_OMC_BeautyTech_Post_700x.webp"
-              alt="Nooance LED mask"
-            />
-            <h2>Elite X600</h2>
-          </div>
-          <p>The most powerful and precise Nooance mask on the market</p>
-        </article>
-        <article class="editorial-card">
-          <div class="editorial-image">
-            <img
-              src="asset/section2/Post_Collagene_Combeau_700x.webp"
-              alt="Combeau collagen supplement"
-            />
-            <h2>Combeau</h2>
-          </div>
-          <p>The best collagen on the market</p>
-        </article>
-      </section>
-       <section class="products-section" >
-        <div class="products-heading">
-          <h2>Our new-in products</h2>
-          <a href="#">See All</a>
+        <p>The most powerful and precise Nooance mask on the market</p>
+      </article>
+      <article class="editorial-card">
+        <div class="editorial-image">
+          <img src="asset/section2/Post_Collagene_Combeau_700x.webp" alt="Combeau collagen supplement" />
+          <h2>Combeau</h2>
         </div>
-        <div class="products-slider">
-          <button class="product-arrow product-prev" type="button" ></button>
-          <div class="product-window">
-            <div class="product-track"></div>
-          </div>
-          <button class="product-arrow product-next" type="button" ></button>
+        <p>The best collagen on the market</p>
+      </article>
+    </section>
+    <section class="products-section">
+      <div class="products-heading">
+        <h2>Our new-in products</h2>
+        <a href="#">See All</a>
+      </div>
+      <div class="products-slider">
+        <button class="product-arrow product-prev" type="button"></button>
+        <div class="product-window">
+          <div class="product-track"></div>
         </div>
-      </section>
-         <section class="brand-section" >
-        <div class="brand-heading">
-          <h2>Our brands</h2>
-          <a href="#">See All Brands</a>
+        <button class="product-arrow product-next" type="button"></button>
+      </div>
+    </section>
+    <section class="brand-section">
+      <div class="brand-heading">
+        <h2>Our brands</h2>
+        <a href="#">See All Brands</a>
+      </div>
+      <div class="brand-slider">
+        <button class="brand-arrow brand-prev" type="button"></button>
+        <div class="brand-window">
+          <div class="brand-track"></div>
         </div>
-        <div class="brand-slider">
-          <button class="brand-arrow brand-prev" type="button"></button>
-          <div class="brand-window">
-            <div class="brand-track"></div>
-          </div>
-          <button class="brand-arrow brand-next" type="button "> </button>
+        <button class="brand-arrow brand-next" type="button "> </button>
+      </div>
+    </section>
+    <section class="products-section bestsellers-section">
+      <div class="products-heading">
+        <h2>Our bestsellers</h2>
+        <a href="#">See All</a>
+      </div>
+      <div class="products-slider">
+        <button class="product-arrow bestseller-prev" type="button" aria-label="Previous bestsellers"></button>
+        <div class="product-window">
+          <div class="bestseller-track product-track"></div>
         </div>
-      </section>
-           <section class="products-section bestsellers-section" >
-        <div class="products-heading">
-          <h2>Our bestsellers</h2>
-          <a href="#">See All</a>
+        <button class="product-arrow bestseller-next" type="button"></button>
+      </div>
+    </section>
+    <section class="journal-section">
+      <div class="journal-heading">
+        <h2>In the journal</h2>
+        <a href="#">See All</a>
+      </div>
+      <div class="journal-slider">
+        <button class="journal-arrow journal-prev" type="button"></button>
+        <div class="journal-window">
+          <div class="journal-track"></div>
         </div>
-        <div class="products-slider">
-          <button
-            class="product-arrow bestseller-prev"
-            type="button"
-            aria-label="Previous bestsellers"
-          ></button>
-          <div class="product-window">
-            <div class="bestseller-track product-track"></div>
-          </div>
-          <button
-            class="product-arrow bestseller-next"
-            type="button"
-          ></button>
-        </div>
-      </section>
-        <section class="journal-section" >
-        <div class="journal-heading">
-          <h2>In the journal</h2>
-          <a href="#">See All</a>
-        </div>
-        <div class="journal-slider">
-          <button class="journal-arrow journal-prev" type="button" ></button>
-          <div class="journal-window">
-            <div class="journal-track"></div>
-          </div>
-          <button class="journal-arrow journal-next" type="button" ></button>
-        </div>
-      </section>
-    </main>
-
+        <button class="journal-arrow journal-next" type="button"></button>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <section class="footer-reading" >
+      <h2>Responsible cosmetics and expert brands</h2>
+      <p>
+        Because we all want to take care of our skin without compromising the planet, organic
+        cosmetics are gradually finding their way into our bathrooms. Committed brands such as
+        <strong>Atelier Nubio</strong>, <strong>Tata Harper</strong>,
+        <strong>Rudolph Care</strong> or even <strong>Patyka</strong> are leading the way with
+        their effective, sensorial and environmentally-friendly skincare products. Let's take a
+        look at these new, more ethical beauty routines. Discover our
+        <a href="#">clean beauty</a> selection, including <a href="#">Led masks</a>,
+        <a href="#">glycolic acid-based skin care</a> and
+      </p>
+      <a class="footer-readmore" href="#">Read More</a>
+    </section>
     <script src="js/script.js"></script>
 </body>
-   
