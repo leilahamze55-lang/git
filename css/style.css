@@ -206,13 +206,9 @@ button {
 }
 
 .slides {
+  --show-count: 2;
   display: flex;
   gap: 8px;
-  transition: transform 0.5s;
-}
-
-.slides.no-transition {
-  transition: none;
 }
 
 .slide-card {
@@ -426,7 +422,19 @@ button {
 .journal-track {
   display: flex;
   gap: 10px;
-  transition: transform 0.5s;
+}
+
+.product-track {
+  --show-count: 5;
+}
+
+.brand-track,
+.journal-track {
+  --show-count: 4;
+}
+
+.is-hidden {
+  display: none !important;
 }
 
 .product-card {
@@ -931,7 +939,21 @@ button {
   }
 
   .slide-card {
+    --show-count: 1;
     flex-basis: 100%;
+  }
+
+  .slides {
+    --show-count: 1;
+  }
+
+  .product-track {
+    --show-count: 2;
+  }
+
+  .brand-track,
+  .journal-track {
+    --show-count: 2;
   }
 
   .image-wrap {
@@ -1008,6 +1030,12 @@ button {
   .brand-card,
   .journal-card {
     flex-basis: 100%;
+  }
+
+  .product-track,
+  .brand-track,
+  .journal-track {
+    --show-count: 1;
   }
 
   .brand-card img,
